@@ -1,0 +1,40 @@
+.recipe-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ingredients, .directions{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ingredients h1, .directions h1{
+    color: #ff6347;
+    margin: 40px auto;
+}
+
+.ingredients ul span{
+    color: #d0b004;
+}
+
+.ingredients ul li{
+    color: #ffdead;
+}
+
+.directions ol {
+    color: #ffdead;
+}
+
+.directions ol li{
+    color: #ffdead;
+    margin-bottom: 40px;
+}
+
+.directions ol h4, p{
+    color: #ffdead;
+}

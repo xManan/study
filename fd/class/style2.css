@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    background-color: lightblue;
+    border: 7px solid white;
+    padding: 20px;
+    width: 600px;
+}
+.tField{
+    margin: 5px 0;
+    width: 100%;
+    padding: 6px;
+    border: 2px solid green;
+}
+.loginBtn{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    
+}
+.btn{
+    background-color: green;
+    color: yellow;
+}
+.cancelBtn{
+    padding: 10px;
+}
+
+

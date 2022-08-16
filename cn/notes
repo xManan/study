@@ -1,0 +1,18 @@
+Hubs:
+    1) They broadcast incoming data to each node. 
+    2) There is no filtering.
+    3) Increase in traffic, decrease in bandwidth.
+    4) Collisions cause data loss.
+    5) When devices connected to hub, they create one collsion domainn one broadcast domain.
+    6) works on layer 1.
+
+Switches:
+    1) They dont broadcast data.
+    2) They are intelligent and keep the record of source mac addresses.
+    3) The incoming data is only sent to mentioned mac address. 
+    4) Decrease in traffic, increase in bandwidth.
+    5) When devices connected to switch, they create n collision domains, one broadcast domain.
+    6) works on layer 2.
+    
+Routers:
+

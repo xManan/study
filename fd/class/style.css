@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 360px;
+}
+h1{
+    background-color: coral;
+}
+form{
+    position: relative;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: turquoise;
+}
